@@ -5,6 +5,16 @@
 #   katz_deli << name
 #   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 # end
+
+number = 0 
+def take_a_number(katz_deli)
+  
+  number += 1
+  katz_deli << number
+  puts "welcome, you are number #{katz_deli.length} in line."
+  
+end
+  
   
 def now_serving(katz_deli)
   if katz_deli.length == 0 
